@@ -23,7 +23,7 @@ jobs:
 
       - name: Run script and save output
         run: |
-          python cfip.py > result.txt
+          python cfip.py > cfip.txt
 
       - name: Commit result
         run: |
