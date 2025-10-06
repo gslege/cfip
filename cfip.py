@@ -216,13 +216,13 @@ def main() -> int:
 
     # print to stdout
     for ip, speed in sorted_pairs:
-        print(f"{ip}#cloudflare-{speed}".strip())
+        print(f"{ip}#Cloudflare-{speed}".strip())
 
     # also write to xyz.txt
     try:
         with open("xyz.txt", "w", encoding="utf-8") as f:
             for ip, speed in sorted_pairs:
-                f.write(f"{ip}#cloudflare-{speed}".strip() + "\n")
+                f.write(f"{ip}#Cloudflare-{speed}".strip() + "\n")
     except Exception as exc:
         print(f"Failed to write xyz.txt: {exc}", file=sys.stderr)
     return 0
