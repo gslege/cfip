@@ -222,7 +222,7 @@ def main() -> int:
     try:
         with open("xyz.txt", "w", encoding="utf-8") as f:
             for ip, speed in sorted_pairs:
-                f.write(f"{ip}#Cloudflare-{speed}".strip() + "\n")
+                f.write(f"{ip}#[ CloudflareIP ] {speed}".strip() + "\n")
     except Exception as exc:
         print(f"Failed to write xyz.txt: {exc}", file=sys.stderr)
     return 0
