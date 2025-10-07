@@ -216,7 +216,7 @@ def main() -> int:
 
     # print to stdout
     for ip, speed in sorted_pairs:
-        print(f"{ip}#Cloudflare-{speed}".strip())
+        print(f"{ip}#[ Cloudflare ] {speed}".strip())
 
     # also write to xyz.txt
     try:
