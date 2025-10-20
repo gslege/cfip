@@ -1,6 +1,4 @@
 162.159.42.104#[ Cloudflare ] 62.9MB/s
 162.159.23.136#[ Cloudflare ] 62.26MB/s
-104.17.104.247#[ Cloudflare ] 13.74MB/s
-104.16.21.30#[ Cloudflare ] 11.74MB/s
 198.41.202.85#[ Cloudflare ] 1.33MB/s
 104.27.111.239#[ Cloudflare ] 0.67MB/s
